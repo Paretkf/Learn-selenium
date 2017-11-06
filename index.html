@@ -1,0 +1,118 @@
+<!-- index.html -->
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Selenium Driver Test</title>
+  <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.4.2/css/bulma.min.css">
+</head>
+<style type="text/css">
+  .wrapper {
+    margin-top: 39px;
+  }
+</style>
+<body>
+  <div class="container wrapper">
+    <div class="field is-horizontal">
+      <div class="field-label is-normal">
+        <label class="label">Title</label>
+      </div>
+      <div class="field-body">
+        <div class="field">
+          <div class="control">
+            <input type="text" class="input title-input"  >
+          </div>
+        </div>
+      </div>
+    </div>
+<div class="field is-horizontal">
+      <div class="field-label is-normal">
+        <label class="label">Description</label>
+      </div>
+      <div class="field-body">
+        <div class="field">
+          <div class="control">
+            <textarea class="textarea description-input"></textarea>
+          </div>
+        </div>
+      </div>
+    </div>
+<div class="field is-horizontal">
+      <div class="field-label">
+        <label class="label">Gender</label>
+      </div>
+      <div class="field-body">
+        <div class="field is-narrow">
+          <div class="control">
+            <label class="radio">
+              <input type="radio" name="gender">
+              Male
+            </label>
+            <label class="radio">
+              <input type="radio" name="gender">
+              Female
+            </label>
+          </div>
+        </div>
+      </div>
+    </div>
+<div class="field is-horizontal">
+      <div class="field-label">
+        <label class="label">Color</label>
+      </div>
+      <div class="field-body">
+        <div class="field">
+          <div class="control">
+            <label class="checkbox">
+              <input type="checkbox" class="color-input">
+              red
+            </label>
+          </div>
+        </div>
+        <div class="field">
+          <div class="control">
+            <label class="checkbox">
+              <input type="checkbox" class="color-input">
+              green
+            </label>
+          </div>
+        </div>
+        <div class="field">
+          <div class="control">
+            <label class="checkbox">
+              <input type="checkbox" class="color-input">
+              blue
+            </label>
+          </div>
+        </div>
+        <div class="field">
+          <div class="control">
+            <label class="checkbox">
+              <input type="checkbox" class="color-input">
+              black
+            </label>
+          </div>
+        </div>
+      </div>
+    </div>
+<div class="field is-horizontal">
+      <div class="field-label">
+        <!-- Left empty for spacing -->
+      </div>
+      <div class="field-body">
+        <div class="field">
+          <div class="control">
+            <button class="button is-info btn-submit" onClick="Clickme()">
+              Submit
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+  <div>
+  <script type="text/javascript">
+    function Clickme() {
+      alert("Click me Alert !")
+    }
+  </script>
+</body>
+</html>
